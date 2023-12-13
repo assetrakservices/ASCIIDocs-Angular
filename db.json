@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "fullName": "test user",
+      "email": "test1@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "fullName": "test Data",
+      "email": "test@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "fullName": "Advait Keskar",
+      "email": "thescholar8101@gmail.com",
+      "password": "Alpha1",
+      "id": 3
+    },
+    {
+      "fullName": "Advait Keskar",
+      "email": "thescholar8101@gmail.com",
+      "password": "Alpha1",
+      "id": 4
+    }
+  ]
+}

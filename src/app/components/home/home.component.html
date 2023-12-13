@@ -1,0 +1,53 @@
+
+  
+  <!-- Sidebar Navigation -->
+  <div class="sidebar" *ngIf="isMenuVisible" role="navigation">
+    <ul class="sidebar-nav">
+      <li class="sidebar-item">
+        <!-- <a routerLink="">Logout</a> -->
+      </li>
+      <li class="sidebar-item" *ngIf="isadmin">
+        <!-- <a routerLink="/user">User</a> -->
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/additionalassets">Additional Asset</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/assetcreation">Asset Creation</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/assetinventory">Asset Inventory</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/assetstages">Asset Stages</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/categoryclass">Category Class</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/editassets">Edit Asset</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/fieldglossary">Field Glossary</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/fieldviewconfig">Field View Config</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/orgstructure">Org Structure</a>
+      </li>
+      <li class="sidebar-item">
+        <a routerLink="/pretagging">Pre-Tagging</a>
+      </li>
+    </ul>
+  
+  
+  
+  
+  <div class="spacer"></div>
+   <a routerLink="/login">Logout</a>
+  </div> 
+  
+  <div class="content" style="width: device-width; margin: 0 auto" role="main">
+    <router-outlet></router-outlet>
+  </div>
